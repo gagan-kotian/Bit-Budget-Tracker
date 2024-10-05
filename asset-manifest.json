@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bit-Budget-Tracker/static/css/main.cb0091fb.css",
+    "main.js": "/Bit-Budget-Tracker/static/js/main.659975ee.js",
+    "static/js/453.64512fd7.chunk.js": "/Bit-Budget-Tracker/static/js/453.64512fd7.chunk.js",
+    "index.html": "/Bit-Budget-Tracker/index.html",
+    "main.cb0091fb.css.map": "/Bit-Budget-Tracker/static/css/main.cb0091fb.css.map",
+    "main.659975ee.js.map": "/Bit-Budget-Tracker/static/js/main.659975ee.js.map",
+    "453.64512fd7.chunk.js.map": "/Bit-Budget-Tracker/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb0091fb.css",
+    "static/js/main.659975ee.js"
+  ]
+}
