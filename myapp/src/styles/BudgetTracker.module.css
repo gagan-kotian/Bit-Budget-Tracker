@@ -1,0 +1,45 @@
+/* BudgetTracker.module.css */
+.budget {
+  margin: 20px auto;
+  max-width: 450px;
+  padding: 25px;
+  background-color: #2e2e2e;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.bud {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: #00ff99; /* Bright green for budget */
+  font-weight: bold;
+}
+
+.p2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #ff5733; /* Red-orange for spent amount */
+}
+
+.p3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #ffc300; /* Yellow-orange for remaining amount */
+}
+
+.currency {
+  font-size: 1.1rem;
+  color: #00c8ff; /* Light blue for currency */
+}
+
+.budget:hover {
+  background-color: #333333;
+  transition: background-color 0.3s ease;
+}
+
+.budget p:hover {
+  transform: scale(1.05);
+}

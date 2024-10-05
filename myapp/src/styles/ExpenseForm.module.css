@@ -1,0 +1,90 @@
+/* ExpenseForm.module.css */
+.formi {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f8ff, #dcdcdc);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.formi:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+input,
+select {
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+select {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #004085;
+  transform: translateY(0);
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .formi {
+    padding: 15px;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 0.9rem;
+  }
+}

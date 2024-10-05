@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* .Appp {
+  margin: 90px;
+  padding: 50px;
+  background-color: rgb(47, 7, 41);
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  border-radius: 2rem;
+} */
+.aa {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+.App.dark {
+  background-color: rgb(47, 7, 41); /* Your dark theme background color */
+  color: white; /* Change text color for dark theme */
+}
+.title {
+  /* Centers the text inside the h1 */
+  /* Adds vertical space around the title */
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

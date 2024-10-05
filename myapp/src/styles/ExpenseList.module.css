@@ -1,0 +1,69 @@
+/* ExpenseList.module.css */
+.elem {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #2e2e2e;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+  color: #f1f1f1;
+}
+
+.lis {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.lis li {
+  background-color: #444444;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.lis li:hover {
+  background-color: #555555;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #ff4c4c;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3333;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #cc0000;
+  transform: translateY(0);
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .elem {
+    padding: 15px;
+  }
+
+  .lis li {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+}
